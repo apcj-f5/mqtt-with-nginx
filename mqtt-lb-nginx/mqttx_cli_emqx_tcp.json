@@ -10,8 +10,6 @@
     "reconnectPeriod": 1000,
     "maximumReconnectTimes": 10,
     "reqProblemInfo": true,
-    "topic": [
-      "t/%c"
-    ]
+    "topic": ["t/%c"]
   }
 }

@@ -10,9 +10,7 @@
     "reconnectPeriod": 1000,
     "maximumReconnectTimes": 10,
     "reqProblemInfo": true,
-    "topic": [
-      "t/%c"
-    ],
+    "topic": ["t/%c"],
     "ca": "./certs/cacert.pem",
     "insecure": true,
     "port": 8883
