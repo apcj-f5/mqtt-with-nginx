@@ -1,4 +1,4 @@
-# Deploying EMQX Cluster with Nginx MQTT Load Balancing
+# Deploying EMQX Cluster with NGINX (OSS) MQTT Load Balancing
 
 This is a quick example to show how to deploy EMQX Cluster with Nginx MQTT Load Balancing.
 
