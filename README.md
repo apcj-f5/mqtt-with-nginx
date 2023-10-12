@@ -1,6 +1,6 @@
 # mqtt-usage-example
 
-Using Docker Compose to show different usages of EMQX MQTT broker
+Using Docker Compose to show different types of use for EMQX MQTT broker
 
 ## Load Balance
 
