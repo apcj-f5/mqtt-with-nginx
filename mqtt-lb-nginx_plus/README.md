@@ -1,10 +1,19 @@
 # Deploying EMQX Cluster with NGINX (OSS) MQTT Load Balancing
 
-This is a quick example to show how to deploy EMQX Cluster with Nginx MQTT Load Balancing.
+This is a quick example to show how to deploy EMQX Cluster with Nginx MQTT Load
+Balancing.
 
-For more information like how to configure Nginx, please see EMQX Documentation: [MQTT Load Balancing](https://docs.emqx.com/en/enterprise/v5.1/deploy/cluster/lb-nginx.html).
+For more information like how to configure Nginx, please see EMQX Documentation:
+[MQTT Load Balancing](https://docs.emqx.com/en/enterprise/v5.1/deploy/cluster/lb-nginx.html).
 
-## Useage
+## Prerequisites
+
+Log in to [MyF5 Customer Portal](https://account.f5.com/myf5) or
+[Request a trial license](https://www.nginx.com/free-trial-request/) and
+download your nginx-repo.crt and nginx-repo.key files. Store the nginx-repo.crt
+and nginx-repy.key in this directory after download.
+
+## Usage
 
 ```bash
 docker compose up -d
