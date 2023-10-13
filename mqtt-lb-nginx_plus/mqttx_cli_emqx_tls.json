@@ -1,0 +1,18 @@
+{
+  "benchSub": {
+    "count": 10,
+    "interval": 10,
+    "mqttVersion": 5,
+    "hostname": "localhost",
+    "clientId": "mqttx_7db1709a",
+    "clean": true,
+    "protocol": "mqtts",
+    "reconnectPeriod": 1000,
+    "maximumReconnectTimes": 10,
+    "reqProblemInfo": true,
+    "topic": ["t/%c"],
+    "ca": "./certs/cacert.pem",
+    "insecure": true,
+    "port": 8883
+  }
+}
